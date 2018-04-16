@@ -1,0 +1,69 @@
+@import '../common.less';
+.position-list{
+	margin-bottom: 45px;
+	.position-list-ul{
+		.item{
+			padding: 14px;
+			border-bottom: 1px solid #e8e8e8;
+			list-style: none;
+			.logo{
+				// margin-right: 10px;
+				float: left;
+				.w(60);
+				.h(60);
+				img{
+					.w(60);
+					.h(60);
+				}
+			}
+			.msg{
+				margin-left: 70px;
+				h3{
+					.fs(16);
+					margin-bottom: 6px;
+				}
+				p{
+					.fs(13);height: 15px;
+					.salary{
+						text-align: right;
+						color: #00b38a;
+						float: right;display: block;
+						.lh(15);
+						
+					}
+					&.time{
+						.fs(12);
+						color: #888;
+					}
+				}
+				.position{
+					margin-bottom: 6px;
+				}
+			}
+		}
+	}
+	.more{
+		.lh(50);
+		text-align: center;
+		.fs(16);
+	}
+	.copyright{
+		color: #333;
+		margin-top: 30px;
+		padding-bottom: 30px;
+		.fs(12)	;
+		text-align: center;
+		.copyright-item{
+			.lh(32);
+			span{
+				&.select{
+					color: #999;
+				}
+			}
+			a{
+				color: #333;
+				text-decoration: none;
+			}
+		}
+	}
+}

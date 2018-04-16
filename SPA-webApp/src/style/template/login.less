@@ -1,0 +1,139 @@
+.login{
+	padding: 25px;
+	.login-hd{
+		margin: 4px 0 34px;
+		.login-btn{
+			.fs(12);
+			color: #00b38a;
+		}
+	}
+	.login-bd{
+		input{
+			border:none;
+		}
+		form.loginByTel{
+			.input-label{
+				border-bottom: 1px solid #E8E9EB;
+				position: relative;
+				input{
+					padding: 9px 0;
+					width: 100%;
+					box-sizing: border-box;
+					outline: none;
+					font-size: 14px;
+					color: #333;
+					height: 34px;
+				}
+				.validation-invalid{
+					position: absolute;
+					right: 0;
+					top: 9px;
+					color: red;
+					.fs(12);
+				}
+			}
+			.phone{
+				position: relative;
+				input{
+					
+				}
+			}
+			.login-submit{
+				margin-top: 40px;
+				input{
+					width: 100%;.lh(38);
+					color: #fff;
+					background-color: #00b38a;
+					border-radius: 3px;
+					.fs(14);
+				}
+			}
+			.register_agreement{
+				margin-top: 17px;
+				span{
+					.fs(12);color: #999;
+				}
+				a{
+					text-decoration: none;
+					color: #666;
+					.fs(12);
+				}
+			}
+		}
+		form.loginByPsd{
+			.input-label{
+				border-bottom: 1px solid #E8E9EB;
+				position: relative;
+				input{
+					padding: 9px 0;
+					width: 100%;
+					box-sizing: border-box;
+					outline: none;
+					font-size: 14px;
+					color: #333;
+					height: 34px;
+				}
+			}
+			.phone{
+				position: relative;
+				.countrySelect{
+					position: absolute;
+					left: 0;top: 0;
+					padding: 8px 0;
+					width: 72px;
+					span{
+						&:after{
+							transform: translateY(-50%);
+						    display: inline-block;
+						    content: "";
+						    width: 0;
+						    height: 0;
+						    border-style: solid;
+						    border-width: 3px 3px 0;
+						    margin-left: 4px;
+						    border-color: #ccc transparent transparent;
+						}
+					}
+
+				}
+				.countryList{
+
+				}
+				input{
+					margin-left: 72px;
+				}
+			}
+			.nomalCode{
+				img{
+					width: 83px;height: 34px;
+					position: absolute;border:none;
+					right: 0;top: 0;display: block;
+				}
+			}
+			.telCode{
+				span{
+					color: #666;
+					position: absolute;
+					top: 0;right: 0;.fs(13);
+					.lh(34);display: block;
+				}
+			}
+			.login-submit{
+				margin-top: 40px;
+				input{
+					width: 100%;.lh(38);
+					color: #fff;
+					background-color: #00b38a;
+					border-radius: 3px;
+					.fs(14);
+				}
+			}
+		}
+	}
+	.login-footer{
+		position: fixed;
+		bottom: 25px;
+		.fs(13);
+		color: #00b38a;
+	}
+}

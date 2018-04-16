@@ -1,0 +1,37 @@
+<div class="register">
+	<div class="register-hd clearfix">
+		<span class="fl">注册拉钩</span>
+		<span class="fr login-btn" ui-sref="login">登录</span>
+	</div>
+	<div class="register-bd">
+		<form action="" name="form">
+			<div class="phone input-label">
+				<div class="countrySelect" ng-click="isCountryList=true">
+					<span ng-bind="code"></span>
+				</div>
+				<div class="countryList" ng-show='isCountryList'>
+						<dl ng-repeat="item in data">
+							<dt ng-bind="item.name"></dt>
+							<dd ng-repeat="value in item.countryList" ng-bind='value.name' code='value.code' length='value.length' ng-click="showcode()"></dd>
+						</dl>
+				</div>
+				<input type="text" name="phone" placeholder="请输入常用手机号" ng-model="user.phone" validator="phone"> 
+			</div>
+			<div class="nomalCode input-label">
+				<input type="text" placeholder="请证明你不是机器人" ng-model="user.nomalCode" validator="nomalCode">
+				<img src="image/create.jpg" alt="">
+			</div>
+			<div class="telCode input-label">
+				<input type="text" placeholder="请输入收到的验证码" ng-model="user.telCode" validator="telCode">
+				<span ng-click="time?1==1:send()" ng-bind="time?time:'获取验证码'"class="{{time?'disabled':''}}"></span>
+			</div>
+			<div class="register-submit">
+				<input type="submit" value="注册" ng-click="submit()" validation-submit="form">
+			</div>
+			<div class="register_agreement">
+				<span>注册拉钩代表你已同意</span>
+				<a href="">《拉钩用户协议》</a>
+			</div>
+		</form>
+	</div>
+</div>

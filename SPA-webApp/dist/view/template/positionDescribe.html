@@ -1,0 +1,56 @@
+<div class="position-describe">
+	<div class="position-item">
+		<div class="position-name clearfix">
+			<div ng-bind="pos.name" class="fl name"></div>
+			<div class="collect" class="fr">
+				<span class="icon"></span>
+				<span>未收藏</span>
+			</div>
+		</div>
+		<div class="position-details">
+			<div class="clearfix">
+				<div class="details-item salary">
+					<span class="icon"></span>
+					<span class="text" ng-bind="pos.data.salary"></span>
+				</div>
+				<div class="details-item address">
+					<span class="icon"></span>
+					<span class="text" ng-bind="pos.data.address"></span>
+				</div>
+				<div class="details-item jobnature">
+					<span class="icon"></span>
+					<span class="text" ng-bind="pos.data.jobnature"></span>
+				</div>
+				<div class="details-item workyear">
+					<span class="icon"></span>
+					<span class="text" ng-bind="pos.data.workyear"></span>
+				</div>
+				<div class="details-item education">
+					<span class="icon"></span>
+					<span class="text" ng-bind="pos.data.education"></span>
+				</div>
+			</div>
+			<div class="add" ng-bind="pos.add"></div>
+		</div>
+		<div class="position-company clearfix" ui-sref="company({id:1})">
+			<div class="company-logo fl">
+				<img ng-src="{{pos.company.logo}}" alt="">
+			</div>
+			<div class="company-details fl">
+				<h3 ng-bind="pos.company.name"></h3>
+				<p ng-bind="pos.company.info"></p>
+			</div>
+			<div class="dright fr"></div>
+		</div>
+	</div>
+	<div class="positiondesc">
+		<h3>职位描述</h3>
+		<div class="content">
+			<p ng-repeat="x in pos.positiondesc" ng-bind="x.key"></p>
+		</div>
+	</div>
+	<div class="positioneval">
+		<h3>面试评价</h3>
+		<p>暂无评价</p>
+	</div>
+</div>

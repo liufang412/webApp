@@ -1,0 +1,63 @@
+@import '../common.less';
+.foot{
+	.lh(45);
+	margin: 0;
+	background-color: #f6f6f6;
+	position: fixed;
+	left: 0;
+	right: 0;bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid #e8e8e8;
+	li{
+		list-style: none;
+		width: 33.33%;text-align: center;
+		.icon{
+			background: url(../image/icon2.png) no-repeat;
+			display: inline-block;
+		    width: 18px;
+		    height: 17px;
+		    background-size: 250px 250px;
+		    margin-bottom: -2px;
+		}
+		.txt{
+			color: #c2cfcc;
+		}
+		&.foot-position .icon{
+			background-position: -32px -2.5px;
+		}
+		&.foot-search .icon{
+			background-position: -14px -2.5px;
+		}
+		&.foot-my .icon{
+			background-position: -52.5px -2px;
+		}
+		&.foot-position.select{
+			.icon{
+				background-position: -32px -20.5px;
+			}
+		}
+		&.select{
+			background-color: #e7f3f0;
+			span{
+				color: #00b38a;
+			}
+		}
+		&.foot-search.select{
+			.icon{
+				background-position: -32px -20.5px;
+			}
+		}
+		&.foot-my.search{
+			.icon{
+				background-position: -14px -20.5px;
+			}
+		}
+		&.foot-my.my{
+			.icon{
+				background-position: -52.5px -19.5px;
+			}
+		}
+	}
+
+}

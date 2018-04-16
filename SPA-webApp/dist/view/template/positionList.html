@@ -1,0 +1,25 @@
+<div class="position-list">
+	<ul class="position-list-ul">
+		<li ng-repeat="item in data" class="item clearfix" ui-sref="position({id:item.id})">
+			<div class="logo fl">
+				<img ng-src="{{item.imgSrc}}" alt="">
+			</div>
+			<div class="msg">
+				<h3 ng-bind='item.name'></h3>
+				<p class="position clearfix">
+					<span ng-bind='item.position+" [ "+item.city+" ] "' class=""></span>
+					<span ng-bind='item.salary' class="salary"></span>
+				</p>
+				<p class="time" ng-bind="item.time"></p>
+			</div>   
+			
+		</li>                                                                                                    
+	<div class="copyright">
+		<p>©2015 lagou.com, all right reserved </p>
+		<div class="copyright-item">
+			<span ui-sref-active='select' ui-sref='main'>移动版&nbsp;&nbsp;</span>
+			<span ui-sref-active='select' ui-sref='computer'>电脑版&nbsp;&nbsp;</span>
+			<a href="#head">回顶部</a>
+		</div>
+	</div>
+</div>

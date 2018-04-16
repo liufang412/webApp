@@ -1,0 +1,45 @@
+<div class="login">
+	<div class="login-hd clearfix">
+		<span class="fl">登录拉钩</span>
+		<span class="fr login-btn" ui-sref="register">注册</span>
+	</div>
+	<div class="login-bd">
+		<form action="" name="form" class="loginByTel" ng-show='!loginMode' name="form" >
+			<div class="phone input-label">
+				<input type="text" ng-model="user.phone" placeholder="请输入已验证的手机号" validator="phone">
+			</div>
+			<div class="psd input-label">
+				<input type="password" ng-model="user.password" placeholder="请输入密码" validator="password">
+			</div>
+			<div class="login-submit">
+			<!-- 当校验不通过时，不会触发submit -->
+				<input type="submit" value="登录" ng-click="submit()" validation-submit="form">
+			</div>
+		</form>
+		<form action="" name="form" class="loginByPsd" ng-show='loginMode'>
+			<div class="phone input-label">
+				<div class="countrySelect">
+					<span ng-bind="1111"></span>
+				</div>
+				<div class="countryList">
+						
+				</div>
+				<input type="text" placeholder="请输入常用手机号">
+			</div>
+			<div class="nomalCode input-label">
+				<input type="text" placeholder="请证明你不是机器人">
+				<img src="image/create.jpg" alt="">
+			</div>
+			<div class="telCode input-label">
+				<input type="text" placeholder="请输入收到的验证码">
+				<span>获取验证码</span>
+			</div>
+			<div class="login-submit">
+				<input type="submit" value="登录">
+			</div>
+		</form>
+	</div>
+	<div class="login-footer" ng-click="loginMode=!loginMode" ng-bind="loginMode?'密码登录':'手机号登录'">
+		
+	</div>
+</div>

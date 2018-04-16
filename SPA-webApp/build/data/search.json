@@ -1,0 +1,246 @@
+{
+    "content": {
+        "data": {
+            "page": {
+                "pageSize": 15, 
+                "start": "0", 
+                "result": [
+                    {
+                        "logger": {
+                            "traceCapable": true, 
+                            "name": "com.lagou.entity.mobile.MobilePosition"
+                        }, 
+                        "positionId": 3222073, 
+                        "positionName": "销售", 
+                        "city": "北京", 
+                        "createTime": "今天 09:17", 
+                        "salary": "6k-12k", 
+                        "companyId": 72034, 
+                        "companyLogo": "i/image/M00/5A/EC/CgpFT1mNWraAIa8-AAAYjLHz8Hw903.jpg", 
+                        "companyName": "天下秀", 
+                        "companyFullName": "北京天下秀科技股份有限公司"
+                    }, 
+                    {
+                        "logger": {
+                            "traceCapable": true, 
+                            "name": "com.lagou.entity.mobile.MobilePosition"
+                        }, 
+                        "positionId": 3867779, 
+                        "positionName": "销售", 
+                        "city": "北京", 
+                        "createTime": "2018-03-13", 
+                        "salary": "4k-8k", 
+                        "companyId": 147, 
+                        "companyLogo": "i/image/M00/76/40/Cgp3O1g1TNOAB2yxAAA9bQUyc4g814.png", 
+                        "companyName": "拉勾网", 
+                        "companyFullName": "北京拉勾网络技术有限公司"
+                    }, 
+                    {
+                        "logger": {
+                            "traceCapable": true, 
+                            "name": "com.lagou.entity.mobile.MobilePosition"
+                        }, 
+                        "positionId": 3123610, 
+                        "positionName": "销售", 
+                        "city": "北京", 
+                        "createTime": "2018-03-13", 
+                        "salary": "10K-20K", 
+                        "companyId": 50702, 
+                        "companyLogo": "i/image/M00/6A/05/Cgp3O1gW8zSAUwUsAABMptH-XY087.jpeg", 
+                        "companyName": "美团点评", 
+                        "companyFullName": "北京三快在线科技有限公司"
+                    }, 
+                    {
+                        "logger": {
+                            "traceCapable": true, 
+                            "name": "com.lagou.entity.mobile.MobilePosition"
+                        }, 
+                        "positionId": 3001023, 
+                        "positionName": "销售总监", 
+                        "city": "北京", 
+                        "createTime": "昨天 14:10", 
+                        "salary": "30k-50k", 
+                        "companyId": 3038, 
+                        "companyLogo": "image1/M00/00/08/Cgo8PFTUWA-AdaTRAAA79zuDOBc464.jpg", 
+                        "companyName": "Gridsum 国双", 
+                        "companyFullName": "北京国双科技有限公司"
+                    }, 
+                    {
+                        "logger": {
+                            "traceCapable": true, 
+                            "name": "com.lagou.entity.mobile.MobilePosition"
+                        }, 
+                        "positionId": 3187171, 
+                        "positionName": "全国销售总监", 
+                        "city": "北京", 
+                        "createTime": "今天 10:22", 
+                        "salary": "25k-40k", 
+                        "companyId": 141955, 
+                        "companyLogo": "i/image2/M00/33/D4/CgotOVpCIByAEizmAAD2HH_yUa0754.png", 
+                        "companyName": "嘀嗒出行", 
+                        "companyFullName": "拼途（北京）信息技术有限公司"
+                    }, 
+                    {
+                        "logger": {
+                            "traceCapable": true, 
+                            "name": "com.lagou.entity.mobile.MobilePosition"
+                        }, 
+                        "positionId": 3540373, 
+                        "positionName": "销售经理", 
+                        "city": "北京", 
+                        "createTime": "2018-03-13", 
+                        "salary": "15k-30k", 
+                        "companyId": 54727, 
+                        "companyLogo": "i/image2/M00/27/54/CgoB5lohAbmAbsbpAABkua9fx4g381.jpg", 
+                        "companyName": "有车以后", 
+                        "companyFullName": "广州市有车以后信息科技有限公司"
+                    }, 
+                    {
+                        "logger": {
+                            "traceCapable": true, 
+                            "name": "com.lagou.entity.mobile.MobilePosition"
+                        }, 
+                        "positionId": 3419172, 
+                        "positionName": "销售专员", 
+                        "city": "北京", 
+                        "createTime": "2018-03-13", 
+                        "salary": "4k-8k", 
+                        "companyId": 58971, 
+                        "companyLogo": "i/image3/M00/22/EA/Cgq2xlqVGaaANZoqAAE_c7gyND0984.png", 
+                        "companyName": "AGMTrade聚米投投", 
+                        "companyFullName": "北京安高盟科技服务有限公司"
+                    }, 
+                    {
+                        "logger": {
+                            "traceCapable": true, 
+                            "name": "com.lagou.entity.mobile.MobilePosition"
+                        }, 
+                        "positionId": 4011231, 
+                        "positionName": "销售经理", 
+                        "city": "北京", 
+                        "createTime": "今天 10:25", 
+                        "salary": "20k-30k", 
+                        "companyId": 1686, 
+                        "companyLogo": "i/image2/M00/07/82/CgotOVnMsHiAXCywAAAVGy9sMiM585.jpg", 
+                        "companyName": "爱奇艺", 
+                        "companyFullName": "北京爱奇艺科技有限公司"
+                    }, 
+                    {
+                        "logger": {
+                            "traceCapable": true, 
+                            "name": "com.lagou.entity.mobile.MobilePosition"
+                        }, 
+                        "positionId": 2933382, 
+                        "positionName": "销售总监", 
+                        "city": "北京", 
+                        "createTime": "今天 10:11", 
+                        "salary": "10k-20k", 
+                        "companyId": 1730, 
+                        "companyLogo": "i/image/M00/22/61/Cgp3O1cUq6yAMA-_AAAOM7mNTQc202.jpg", 
+                        "companyName": "一下科技", 
+                        "companyFullName": "炫一下（北京）科技有限公司"
+                    }, 
+                    {
+                        "logger": {
+                            "traceCapable": true, 
+                            "name": "com.lagou.entity.mobile.MobilePosition"
+                        }, 
+                        "positionId": 4090551, 
+                        "positionName": "销售", 
+                        "city": "北京", 
+                        "createTime": "昨天 17:04", 
+                        "salary": "8k-10k", 
+                        "companyId": 124195, 
+                        "companyLogo": "i/image/M00/43/76/CgpFT1lfM6mAXFUwAABo_6cN6zw428.jpg", 
+                        "companyName": "丽兹行", 
+                        "companyFullName": "北京丽兹行房地产顾问有限公司"
+                    }, 
+                    {
+                        "logger": {
+                            "traceCapable": true, 
+                            "name": "com.lagou.entity.mobile.MobilePosition"
+                        }, 
+                        "positionId": 3585167, 
+                        "positionName": "电话销售", 
+                        "city": "北京", 
+                        "createTime": "昨天 14:19", 
+                        "salary": "6k-12k", 
+                        "companyId": 5706, 
+                        "companyLogo": "i/image2/M00/1A/0D/CgotOVoAFfyAQt_cAANhx0qp9w8316.jpg", 
+                        "companyName": "洋葱数学", 
+                        "companyFullName": "光合新知（北京）科技有限公司"
+                    }, 
+                    {
+                        "logger": {
+                            "traceCapable": true, 
+                            "name": "com.lagou.entity.mobile.MobilePosition"
+                        }, 
+                        "positionId": 4188662, 
+                        "positionName": "销售经理", 
+                        "city": "北京", 
+                        "createTime": "2018-03-13", 
+                        "salary": "15k-30k", 
+                        "companyId": 83580, 
+                        "companyLogo": "i/image/M00/70/01/CgpFT1ozoiCAeyeeAACNVEPyJm0693.jpg", 
+                        "companyName": "地平线机器人", 
+                        "companyFullName": "北京地平线信息技术有限公司"
+                    }, 
+                    {
+                        "logger": {
+                            "traceCapable": true, 
+                            "name": "com.lagou.entity.mobile.MobilePosition"
+                        }, 
+                        "positionId": 3881991, 
+                        "positionName": "销售", 
+                        "city": "北京", 
+                        "createTime": "2018-03-13", 
+                        "salary": "5k-8k", 
+                        "companyId": 37986, 
+                        "companyLogo": "image1/M00/33/76/CgYXBlWTnx-ASfOKAAA1_5WUIZo328.jpg", 
+                        "companyName": "世纪超星", 
+                        "companyFullName": "北京世纪超星信息技术发展有限责任公司"
+                    }, 
+                    {
+                        "logger": {
+                            "traceCapable": true, 
+                            "name": "com.lagou.entity.mobile.MobilePosition"
+                        }, 
+                        "positionId": 3768061, 
+                        "positionName": "销售经理", 
+                        "city": "北京", 
+                        "createTime": "昨天 14:46", 
+                        "salary": "10k-20k", 
+                        "companyId": 157809, 
+                        "companyLogo": "i/image2/M00/16/EC/CgoB5ln4FriAVfL6AAAU0vZMT60031.jpg", 
+                        "companyName": "九吨科技", 
+                        "companyFullName": "重庆市九吨科技有限公司"
+                    }, 
+                    {
+                        "logger": {
+                            "traceCapable": true, 
+                            "name": "com.lagou.entity.mobile.MobilePosition"
+                        }, 
+                        "positionId": 4264925, 
+                        "positionName": "软件销售岗", 
+                        "city": "北京", 
+                        "createTime": "今天 09:44", 
+                        "salary": "8k-10k", 
+                        "companyId": 149034, 
+                        "companyLogo": "i/image/M00/5B/EE/CgqKkVfiaO2AeouUAABrk5W83EQ723.jpg", 
+                        "companyName": "骏嘉财通", 
+                        "companyFullName": "北京骏嘉财通科技有限公司"
+                    }
+                ], 
+                "totalCount": "6172", 
+                "pageNo": 1
+            }, 
+            "custom": {
+                "positionName": "销售", 
+                "city": "北京"
+            }
+        }, 
+        "rows": [ ]
+    }, 
+    "message": "分页数据", 
+    "state": 1
+}

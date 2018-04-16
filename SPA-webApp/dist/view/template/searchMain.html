@@ -1,0 +1,50 @@
+<div class="search">
+	<div app-head  ng-show="!citiesShow"></div>
+	<!-- 搜索头部  start -->
+	<div class="search-hd" ng-show="!citiesShow" >
+		<div class="lbutton fl" ng-click='citiesShow=true'><span class="city" ng-bind="cityName"></span><em class="icon"></em>
+		</div>
+		<div class="rinput clearfix">
+			<input type="text" class="fl" placeholder="搜索职位或公司" ng-model="searchInput">
+			<span class="fr icon"  ng-click="search()"></span>
+		</div>
+	</div>
+	<!-- 搜索结果列表 start -->
+	<div class='search-list' ng-show="!citiesShow">
+		<div class="tips">将搜索地区和关键词设为定制条件{{searchInput}}</div>
+		<ul>
+			<li class="item" ng-repeat="v in result">
+				<img ng-src="{{v.imgSrc}}" alt="">
+				<div class="item-desc">
+					<h2 class="" ng-bind="v.name">天下秀</h2>
+					<p class="item-info clearfix">
+						<span class="item-pos fl" ng-bind="v.position+' [ '+v.city+' ] '">销售[北京]</span>
+						<span class="item-salary fr" ng-bind="v.salary">6k-12k</span>
+					</p>
+					<p class="item-time" ng-bind="v.time">今天09:17</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<!-- 搜索结果列表 end -->
+	<!-- 搜索头部  end -->
+	<!-- 城市列表  start -->
+	<div class="cityList" ng-show="citiesShow" ng-init="citiesShow=false">
+		<div class="cityList-hd">
+			<div class="back" ng-click='citiesShow=false'>
+				<span></span>
+			</div>
+			拉勾网
+		</div>
+		<div ng-repeat='item in cities'>
+			<div class="nameStr" ng-bind="item.nameStr"></div>
+			<table class="city-list">
+				<tr>
+					<td ng-bind='value' ng-repeat='value in item.cityList' ng-click='city()'></td>
+				</tr>
+			</table>
+		</div>
+
+	</div>
+	<!-- 城市列表  end -->
+</div>

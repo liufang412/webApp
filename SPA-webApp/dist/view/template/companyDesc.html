@@ -1,0 +1,14 @@
+<div class="company-desc clearfix">
+	<div class="company-logo fl">
+		<img ng-src="{{position.imageUrl}}" alt="">
+	</div>
+	<div class="company-details fl">
+		<h3 ng-bind="position.name"></h3>
+		<p class="address">
+			<span class="icon"></span>
+			<span ng-bind='position.address' class="text"></span>
+		</p>
+		<p ng-bind="position.industry+'/'+position.state+'/'+position.people" class="info"></p>
+	</div>
+	<div class="approve"></div>
+</div>

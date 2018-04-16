@@ -1,0 +1,15 @@
+<div class="positionClass">
+	<div class="">
+		<h3>职位分类</h3>
+		<div class="position clearfix">
+			<span class="{{isSelected===$index?'select':''}}" ng-repeat="item in position.positionClass" ng-bind="item.name" ng-click="listShow($index)" ng-init="listShow(0)"></span>
+		</div>
+	</div>
+	<ul>
+		<li ng-repeat='item in positionList.positionList'>
+			<span class="position-name" ng-bind='item.name'></span>
+			<span class="time" ng-bind='item.createdDate'>昨天16:12</span>
+			<span class="salary" ng-bind='item.salary'>20k-40k</span>
+		</li>
+	</ul>
+</div>

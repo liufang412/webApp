@@ -1,0 +1,143 @@
+.register{
+	padding: 25px;
+	.register-hd{
+		margin: 4px 0 34px;
+		.login-btn{
+			.fs(12);
+			color: #00b38a;
+		}
+	}
+	.register-bd{
+		input{
+			border:none;
+		}
+		form{
+			.input-label{
+				border-bottom: 1px solid #E8E9EB;
+				position: relative;
+				.validation-invalid{
+					color: red;
+					.fs(12);text-align: right;
+				}
+				input{
+					padding: 9px 0;
+					width: 100%;
+					box-sizing: border-box;
+					outline: none;
+					font-size: 14px;
+					color: #333;
+					height: 34px;
+				}
+			}
+			.phone{
+				.validation-invalid{
+					position: absolute;
+					right: 0;
+					top: 9px;
+					color: red;
+					.fs(12);
+				}
+			}
+			.nomalCode{
+				span{
+					z-index: 100;
+					position: absolute;
+					top: 0;
+					right: 84px;
+					display: block;
+					width: 100px;.lh(35);
+
+				}
+			}
+			.telCode{
+				p.validation-invalid{
+					position: absolute;
+					right: 84px;top: 0;
+					display: block;
+					width: 100px;
+				}
+				.disabled{
+					color: #ccc;
+				}
+			}
+			.phone{
+				position: relative;
+				.countrySelect{
+					position: absolute;
+					left: 0;top: 0;
+					padding: 8px 0;
+					width: 72px;
+					span{
+						&:after{
+							transform: translateY(-50%);
+						    display: inline-block;
+						    content: "";
+						    width: 0;
+						    height: 0;
+						    border-style: solid;
+						    border-width: 3px 3px 0;
+						    margin-left: 4px;
+						    border-color: #ccc transparent transparent;
+						}
+					}
+
+				}
+				.countryList{
+					z-index: 999;
+					position: fixed;
+					padding-left: 10px;
+					top: 0;left: 0;bottom: 0;right: 0;
+					width: 100%;background-color: #fff;
+					overflow-y:scroll;
+					dl{
+						color: #666;
+						.fs(12);
+						dd{
+							.lh(38);
+							.fs(14);
+						}
+					}
+				}
+				input{
+					margin-left: 72px;
+				}
+			}
+			.nomalCode{
+				img{
+					width: 83px;height: 34px;
+					position: absolute;border:none;
+					right: 0;top: 0;display: block;
+				}
+			}
+			.telCode{
+				span{
+					color: #666;
+					position: absolute;
+					top: 0;right: 0;.fs(13);
+					.lh(34);display: block;
+				}
+			}
+			.register-submit{
+				margin-top: 40px;
+				input{
+					width: 100%;.lh(38);
+					color: #fff;
+					background-color: #00b38a;
+					border-radius: 3px;
+					.fs(14);
+				}
+			}
+			.register_agreement{
+				margin-top: 17px;
+				span{
+					.fs(12);color: #999;
+				}
+				a{
+					text-decoration: none;
+					color: #666;
+					.fs(12);
+				}
+			}
+		}
+	}
+}

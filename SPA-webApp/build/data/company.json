@@ -1,0 +1,81 @@
+{
+	"id":"c1",
+	"imageUrl":"/image/company1.jpg",
+	"name":"知乎",
+	"address":"北京",
+	"industry":"移动互联网，社交网络",
+	"state":"D轮及以上",
+	"people":"150-500人",
+	"positionClass":[
+		{
+			"id":"jishu",
+			"name":"技术",
+			"positionList":[
+				{
+					"id":"",
+					"name":"广告算法工程师[北京]",
+					"createdDate":"昨天16:12",
+					"salary":"20k-40k"
+				},
+				{
+					"id":"",
+					"name":"JAVA开发工程师（商业广告）[北京]",
+					"createdDate":"昨天16:12",
+					"salary":"20k-40k"
+				},
+				{
+					"id":"",
+					"name":"前端开发工程师（商业广告）[北京]",
+					"createdDate":"昨天16:12",
+					"salary":"18k-36k"
+				}
+			]
+		},
+		{
+			"id":"chanpin",
+			"name":"产品",
+			"positionList":[
+				{
+					"id":"",
+					"name":"PMO/版本管理工程师/发布工程师",
+					"createdDate":"今天11:01",
+					"salary":"20k-40k"
+				},
+				{
+					"id":"",
+					"name":"资深反作弊产品经理（Leader）",
+					"createdDate":"今天11:01",
+					"salary":"25k-40k"
+				},
+				{
+					"id":"",
+					"name":"反作弊产品经理（Leader）",
+					"createdDate":"今天11:01",
+					"salary":"20k-30k"
+				}
+			]
+		},
+		{
+			"id":"sheji",
+			"name":"设计",
+			"positionList":[
+				{
+					"id":"",
+					"name":"产品设计师 (UX/UI) [ 北京 ]",
+					"createdDate":"2018-2-22",
+					"salary":"15k-30k"
+				},
+				{
+					"id":"",
+					"name":"视觉设计师",
+					"createdDate":"2018-2-22",
+					"salary":"10k-20k"
+				}
+			]
+		}
+		
+	]
+
+}
+
+
